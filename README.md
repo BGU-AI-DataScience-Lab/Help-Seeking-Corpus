@@ -1,25 +1,45 @@
-# מאגר שיחות תמיכה ברשת: נתונים בגישה מוגבלת
-המאגר מכיל שיחות תמיכה ברשת בעברית ובערבית לאחר תהליך של ניקוי והתממה רחבי היקף.
-השיחות מהוות חלק ממאגר שיחות שבוצעו בשנים 2019-2023 בעמותת סה"ר, סיוע והקשבה ברשת.
+# Online Support Conversations Dataset — Restricted Access
 
-הנתונים בגישה מוגבלת ושיתוף שלהם ישקל רק עם גורמים מתאימים לצורכי מחקר ופרויקטים לקידום החברה ותחומי הסיוע הנפשי ועיבוד שפה טבעית בשפות עברית וערבית.
+The **Online Support Conversations Dataset** contains **Hebrew and Arabic** text-based emotional support chats that have undergone an extensive **cleaning and anonymization process**.  
+These conversations are part of a larger collection recorded between **2019–2023** by **Sahar (Support and Listening Online)**, a nonprofit organization providing online emotional assistance.
 
-ישנם שיקולים משמעותיים לחוקרים ומפתחים שיעבדו עם המידע במאגר לאור רגישותו.
-תהליך בחינת הבקשות למידע נועד לוודא הבטחה של שימוש ראוי במאגר כולל מניעת ייצוג מוטה של הנתונים וחשיפת פרטים מתוך המאגר.
+## Access Policy
 
-המאגר כולל כ-500 שיחות בשפות עברית וערבית. מאפייני שיחה קיימים כוללים את זמני השיחות ומשכן, גיל ומין הדוברים, וקשיים מרכזיים שעלו בשיחות כפי שתויגו על ידי גורם אנושי.
+Access to the dataset is **restricted**.  
+Data sharing will be considered **only for approved research purposes** or **projects that advance social well-being**, **mental health support**, and **natural language processing (NLP)** in **Hebrew** and **Arabic**.
 
-על מנת להתחיל את תהליך בקשת המידע, יש למלא את [טופס הבקשה](https://docs.google.com/forms/d/e/1FAIpQLSd3z7Dso0sIjGbTtSYxv-Pwd336PUvzsJsma44nBNUSG74J1A/viewform?usp=sf_link) המצורף.
+Due to the **highly sensitive nature** of the content, researchers and developers must adhere to strict **ethical and privacy guidelines**.  
+The **data access review process** ensures:
+- Responsible and secure use of the dataset  
+- Prevention of biased or misleading data representations  
+- Protection from any potential exposure of sensitive or identifiable information  
 
-# תודות
-יכולות עיבוד שפה בעברית מפותחות בין היתר בעזרת כלים ממעבדת [ONLP LAB](https://github.com/OnlpLab), כולל מודל [AlephBert](https://github.com/OnlpLab/AlephBERT).
+## Dataset Description
 
-התממה אוטומטית מבוצעת בעזרת פרוייקט [HebSafeHarbor - CLALIT Validation](https://github.com/ChenMordehai/HebSafeHarbor_Clalit_Validation_Improvment?tab=readme-ov-file).
+The dataset includes approximately **300 anonymized conversations** in **Hebrew and Arabic**.  
+Each conversation entry includes:
+- **Timestamps** and **duration**
+- **Speaker age** and **gender**
+- **Primary emotional difficulty** discussed (as labeled by human annotators)
 
-# יצירת קשר
-לכל שאלה או פנייה בנוגע לפרויקט, אתם מוזמנים לפנות אליי במייל: avisegal@gmail.com
+To initiate the data access request process, please complete the official  
+[Data Access Request Form](https://docs.google.com/forms/d/e/1FAIpQLSd3z7Dso0sIjGbTtSYxv-Pwd336PUvzsJsma44nBNUSG74J1A/viewform?usp=sf_link)
 
-![image](https://github.com/Chats-Anonymization/Hebrew-Arabic-Anonymization/assets/168101226/7e4096c6-7e81-4de0-bdfe-56efce10323e)
+---
 
+## Acknowledgments
 
+Hebrew NLP development in this project was supported by tools from the  
+[**ONLP LAB**](https://github.com/OnlpLab), including the [**AlephBERT**](https://github.com/OnlpLab/AlephBERT) model.
 
+Automated anonymization was performed using the  
+[**HebSafeHarbor – Clalit Validation Project**](https://github.com/ChenMordehai/HebSafeHarbor_Clalit_Validation_Improvment?tab=readme-ov-file).
+
+## Contact
+
+For any questions or collaboration inquiries regarding this project, please contact:  
+**Avi Segal** — [avisegal@gmail.com](mailto:avisegal@gmail.com)
+
+---
+
+![Sahar Logo](https://github.com/Chats-Anonymization/Hebrew-Arabic-Anonymization/assets/168101226/7e4096c6-7e81-4de0-bdfe-56efce10323e)
