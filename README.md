@@ -1,4 +1,4 @@
-# Online Support Conversations Dataset — Restricted Access
+# Online Support Conversations Dataset
 
 The **Online Support Conversations Dataset** contains **Hebrew and Arabic** text-based emotional support chats that have undergone an extensive **cleaning and anonymization process**.  
 These conversations are part of a larger collection recorded between **2019–2023** by **Sahar (Support and Listening Online)**, a nonprofit organization providing online emotional assistance.
